@@ -1,4 +1,4 @@
-# Azure Admin Labs
+# Azure Administrator Playbook
 
 A hands-on Azure Administrator lab repository documenting the creation and configuration of core Azure services aligned with AZ-104 concepts.
 
