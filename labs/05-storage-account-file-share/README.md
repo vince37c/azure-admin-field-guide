@@ -32,7 +32,15 @@ Create an Azure Storage Account and review its deployment and configuration in t
 - Review the storage account overview and properties in the portal.
 
 ## Screenshots
-Screenshots for this lab are stored in the `screenshots` folder.
+
+### Storage Account Deployment
+![Storage Account Deployment](./screenshots/01-storage-account-deployment.png)
+
+### Storage Account Overview
+![Storage Account Overview](./screenshots/02-storage-account-overview.png)
+
+### Storage Account Configuration
+![Storage Account Configuration](./screenshots/03-storage-account-configuration.png)
 
 ## Cleanup
 1. Navigate to the resource group.
