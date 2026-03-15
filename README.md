@@ -32,9 +32,16 @@ Example:
 rg-adminlabs-dev-eastus
 
 ### Tagging
-- Owner
-- Environment
-- Project
+
+Tags help organize and manage Azure resources.
+
+Standard tags used in these labs:
+
+- **Owner** – identifies who manages the resource  
+- **Environment** – identifies the deployment stage (Dev/Test/Prod)  
+- **Project** – identifies the workload or project  
+
+---
 
 ## Repo Notes
 - Screenshots live inside each lab folder.
