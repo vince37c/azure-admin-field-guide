@@ -22,6 +22,7 @@ Each lab includes:
 | 02 | Virtual Machine |
 | 03 | Network Security Group |
 | 04 | Azure Budget + Cost Alerts |
+| 05 | Storage Account + File Share |
 
 ## Standards
 
