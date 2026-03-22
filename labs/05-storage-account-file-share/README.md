@@ -15,7 +15,7 @@ Create an Azure Storage Account and review its deployment and configuration in t
 - Storage Account: storevp1 / storevp2
 - Resource Group: storevp1-rg / storevp2-rg
 
-## Build Steps (Azure Portal)
+## Deployment Steps (Azure Portal)
 1. In the Azure Portal, search for **Storage accounts**.
 2. Click **Create**.
 3. Select your subscription.
@@ -51,3 +51,4 @@ Create an Azure Storage Account and review its deployment and configuration in t
 - Storage account names must be globally unique.
 - Storage accounts can be configured with different performance and redundancy options.
 - The Azure Portal provides deployment validation and resource overview information.
+- Azure Storage supports multiple services such as Blob, File, Queue, and Table within a single StorageV2 account.
