@@ -27,10 +27,12 @@ Each lab includes:
 ## Standards
 
 ### Naming
-rg-<project>-<environment>-<region>
+Resource names may vary depending on the specific lab scenario.  
+Each lab documents the naming used for the resources it creates.
 
-Example:
+Examples:
 rg-adminlabs-dev-eastus
+storevp1
 
 ### Tagging
 
