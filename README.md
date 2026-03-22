@@ -31,6 +31,7 @@ Resource names may vary depending on the specific lab scenario.
 Each lab documents the naming used for the resources it creates.
 
 Examples:
+
 rg-adminlabs-dev-eastus
 
 storevp1
