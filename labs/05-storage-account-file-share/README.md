@@ -34,7 +34,7 @@ Create an Azure Storage Account and review its deployment and configuration in t
 ## Screenshots
 
 ### Storage Account Deployment
-![Storage Account Deployment](./screenshots/01-storage-account-deployment.png)
+![Storage Account Deployment](screenshots/01-storage-account-deployment-success.png)
 
 ### Storage Account Overview
 ![Storage Account Overview](./screenshots/02-storage-account-overview.png)
