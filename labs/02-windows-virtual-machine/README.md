@@ -1,13 +1,13 @@
 # Lab 02: Create a Windows Virtual Machine
 
 ## Objective
-Deploy a Windows virtual machine and attach it to an existing virtual network. Configure basic networking so remote administration is possible.
+Deploy a Windows virtual machine in Azure and review the resources automatically created during deployment. Validate networking configuration and confirm the VM is running.
 
 ## Resources Created
-- Virtual Machine
-- Network Interface (NIC)
-- Public IP Address (optional, if using public access)
-- Network Security Group (NSG)
+- Virtual Machine  
+- Network Interface (NIC)  
+- Public IP Address  
+- Network Security Group (NSG)  
 - OS Disk
 
 ## Prerequisites
@@ -17,9 +17,9 @@ Deploy a Windows virtual machine and attach it to an existing virtual network. C
 
 ## Naming Used (Examples)
 - Resource Group: vm-rg
-- Virtual Machine: win-vm
+- Virtual Machine: vm1
 - Virtual Network: lab-vnet
-- Subnet: default or app-subnet
+- Subnet: default
 
 ## Build Steps (Azure Portal)
 
@@ -49,17 +49,15 @@ Deploy a Windows virtual machine and attach it to an existing virtual network. C
 7. Click **Review + create**, then **Create**.
 
 ## Validation
-- Confirm the VM shows **Running**.
-- Confirm the VM is attached to the intended Virtual Network and subnet.
-- If public access is enabled:
-  - Confirm an inbound NSG rule exists for the required port (example: RDP 3389).
-  - Confirm the Public IP is assigned to the VM.
+- Confirm the VM deployment completed successfully.
+- Confirm the VM status shows Running.
+- Confirm the VM and supporting resources appear in the resource group.
+- Confirm a Public IP and Network Security Group were created.
 
 ## Screenshots to Capture
-- VM Basics configuration → 01-vm-basics.png
-- VM Networking configuration → 02-vm-networking.png
-- NSG inbound rule (if applicable) → 03-nsg-inbound.png
-- Resource group overview showing created resources → 04-rg-overview.png
+- VM deployment completed → 01-vm-deployment-success.png
+- Resource group overview showing created resources → 02-resource-group-resources.png
+- Virtual machine running in Azure portal → 03-virtual-machine-running.png
 
 ## Cleanup
 Option A (cleanest):
@@ -75,5 +73,6 @@ Option B (manual):
 ## Notes / What I Learned
 - VM creation automatically provisions dependent resources like NIC and OS disk.
 - A VM must be deployed in the same region as the virtual network it connects to.
+- Azure automatically creates dependent resources like NICs and OS disks during deployment.
 - Public access requires a public IP and an NSG rule; least privilege matters even in labs.
 - Small VM sizes are useful for learning while controlling cost.
