@@ -32,9 +32,9 @@ Each lab documents the naming used for the resources it creates.
 
 Examples:
 
-rg-adminlabs-dev-eastus
+- rg-adminlabs-dev-eastus
 
-storevp1
+- storevp1
 
 ### Tagging
 
